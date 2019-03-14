@@ -1,0 +1,16 @@
+﻿<Window x:Class="ACABeacon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACABeacon"
+        mc:Ignorable="d"
+        Title="ACA Beacon" Height="130.859" Width="394.247" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="mac_address_label" Content="Mac Address List: " HorizontalAlignment="Left" Margin="12,46,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="mac_addresses" HorizontalAlignment="Left" Height="23" Margin="122,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" UndoLimit="0" IsInactiveSelectionHighlightEnabled="True" IsReadOnlyCaretVisible="True"/>
+        <Label x:Name="username_label" Content="Username: " HorizontalAlignment="Left" Margin="12,15,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="23" Margin="122,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" UndoLimit="0" IsReadOnlyCaretVisible="True" IsInactiveSelectionHighlightEnabled="True"/>
+
+    </Grid>
+</Window>
